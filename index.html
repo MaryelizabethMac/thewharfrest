@@ -4,14 +4,27 @@
         <title>The Wharf - Home</title> 
         <meta charset="UTF-8">
         <meta name="description" content="The Wharf Restaurant">
-        <meta name="keywords" content="Ocean, Wharf, Restaurant">
+        <meta name="keywords" content="ocean, wharf, restaurant, menu, plymouth, sandwich, massachusetts, seafood, service, pizza, burger, drinks, clams, salads, food">
         <meta name="author" content="Maryelizabeth Macdonald">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="stylesheet.css">
+    
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-QP7D087KJV"></script>
+        <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-QP7D087KJV');
+        </script>
     </head>
     <body>
         <header>
-            <img src="images/logonew.png" alt="logo" width="200" height="175">
-            <h1>Home</h1>
+            <div class="header-container">
+                <img src="images/logonew.png" alt="logo" width="225" height="200">
+                <h1>Home</h1>
+            </div>
             <nav>
                 <ul>
                     <li><a href="index.html">Home Page</a></li>
@@ -22,19 +35,19 @@
             </nav>
         </header>
         <main>
-            <section>
+            <div class="first-section">
                 <img src="images/images.jpg" alt="image1" width="250" height="175">
-                <h2> Hours of Operation: </h2>
-                <p>11:30 Am - 9:00 Pm Monday-Thursday, 11:00 Am - 10:00 Pm Friday-Sunday</p>
-            </section>
-            <section>
+                <h2> Hours of Operation: </h2><br>
+                <br><p>11:30 Am - 9:00 Pm Monday-Thursday<br> 11:00 Am - 10:00 Pm Friday-Sunday</p>
+            </div>
+            <div class="second-section">
                 <img src="images/download.jpg" alt="image2" width="250" height="175">
-                <h2>Locations:</h2>
-                <p>Plymouth, MA (02360), Sandwich, MA (02537)</p>
-            </section>  
+                <h2>Locations:</h2><br>
+                <p>Plymouth, MA (02360)<br> Sandwich, MA (02537)</p>
+            </div> 
         </main>
         <footer>
-            <img src="images/contactareafooter.png" alt="footer" width="250" height="175">
+            <img src="images/contactareafooter.png" alt="footer" width="250" height="175" class="footer">
         </footer>
     </body>
 </html>

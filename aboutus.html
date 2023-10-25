@@ -3,11 +3,28 @@
     <head>
         <title>The Wharf - About Us</title> 
         <meta charset="UTF-8">
+        <meta name="description" content="The Wharf Restaurant">
+        <meta name="keywords" content="cean, wharf, restaurant, menu, plymouth, sandwich, massachusetts, seafood, service, pizza, burger, drinks, clams, salads, food">
+        <meta name="author" content="Maryelizabeth Macdonald">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="stylesheet.css" rel="stylesheet">
+        <link rel="stylesheet" href="stylesheet.css">
     </head>
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-QP7D087KJV"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-QP7D087KJV');
+</script>
     <body>
         <header>
-            <h1><img src="images/logonew.png" alt="logo" width="200" height="175"></h1>
-            <h1>About Us</h1>
+            <div class="header-container">
+                <img src="images/logonew.png" alt="logo" width="225" height="200">
+                <h1>About Us</h1>
+            </div>
             <nav>
                 <ul>
                     <li><a href="index.html">Home Page</a></li>
@@ -18,14 +35,14 @@
             </nav>
         </header>
         <main>
-            <section>
+            <div class="restauranthistory">
                 <h2>Restaurant History</h2>
                 <p>The Wharf was built and opened in the summer of 1984 on the coast as a place for families and friends to meet and gather over good food and good views.</p>
                 <img src="images/pics.webp" alt="food" width="175" height="100">
                 <img src="images/pic2.jpg" alt="food2" width="175" height="100">
                 <p>The restaurant became a staple in the community and since has expanded its locations and has been passed through the family for generations.</p>
-            </section>
-            <section>
+            </div>
+            <div class="townhistories">
                 <h2>Town Histories</h2>
                 <h3>Plymouth, Massachusetts Location</h3>
                 <p>Plymouth, Massachusetts was founded in 1620 and is a historical site for the Mayflower, these individuals were known as separatists from England. The land in which the restaurant resides was less than a half mile away from the landing site and Plymouth rock which are still available for individuals to tour and see today only minutes from the restaurant.</p>
@@ -33,10 +50,10 @@
                 <img src="images/sandwichma.jpg" alt="sandwich" width="175" height="100">
                 <h3>Sandwich, Massachusetts Location</h3>
                 <p>Sandwich, Massachusetts was founded in 1637 by Edmund Freeman the 2nd and is the oldest town in Cape Cod. They were an early site for a Quaker settlement and still continue this tradition today. They’re most known for the trading, fishing, and agriculture the town and land provided for the community. </p>
-            </section>
+            </div>
         </main>
         <footer>
-            <img src="images/contactareafooter.png" alt="footer" width="250" height="175">
+            <img src="images/contactareafooter.png" alt="footer" width="250" height="175" class="footer">
         </footer>
     </body>
 </html>
