@@ -47,8 +47,6 @@ h2 {
     border: 6px solid white; /* Creates borders around the text in white*/
     text-transform: uppercase; /* Makes all the text uppercase*/
     padding: 15px; /* Makes the border a little futher away from the text itself, englarges the border essentially*/
-    width: 50%;
-    height: 50%;
     margin: auto;
 }
 h2:hover {
