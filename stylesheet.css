@@ -22,12 +22,11 @@ input.search-bar {
     border: 1px solid #ccc;
 }
 h1 {
-    font-size: 60px;
+    font-size: 75px;
     border-radius: 15px;
     background-color: #073F6F;
     color: white;
     margin: auto;
-    margin-right: 7%;
     text-align: center;
     border: 6px solid white;
     text-transform: uppercase;
