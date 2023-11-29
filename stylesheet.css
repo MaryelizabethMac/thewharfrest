@@ -1,7 +1,3 @@
-main {
-    height:100%;
-    width:100%;
-}
 body {
     background-color: #D9F1FF; /* changes background color for all pages*/
     font-family:Georgia, 'Times New Roman', Times, serif; /* changes font for all pages*/
@@ -18,6 +14,8 @@ div #logo img {
 }
 header {
     text-align: center; /* center items */
+    height: 100%;
+    width:100%;
 }
 h1 {
     font-size: 60px;
@@ -234,12 +232,15 @@ button {
 }
 /* Footer CSS */
 footer {
-    padding: 30px;
+    padding: 40px;
     text-align: center;
     margin: auto;
 }
+.social-sharing {
+    margin: 20px;
+}
 img.footer {
-    padding: 30px;
+    padding: 40px;
     transition: transform 0.3s; /* Apply smooth transition to the transform property */
 }
 img.footer:hover {
