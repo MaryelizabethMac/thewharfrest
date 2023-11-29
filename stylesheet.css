@@ -2,7 +2,7 @@ body {
     background-color: #D9F1FF; /* changes background color for all pages*/
     font-family:Georgia, 'Times New Roman', Times, serif; /* changes font for all pages*/
     color: #073F6F; /* changes color of text for all pages*/
-    margin:auto
+    margin:auto;
 }
 #header-container {
     display: flex; /* align items*/
@@ -11,10 +11,11 @@ body {
 header {
     text-align: center; /* center items */
 }
-input.search-bar {
-    padding: 10px;
-    border-radius: 5px;
-    border: 1px solid #ccc;
+#main-header {
+    align-items: center;
+    width: 50%;
+    height: 50%;
+    margin: auto;
 }
 h1 {
     font-size: 60px;
