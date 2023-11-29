@@ -7,22 +7,20 @@ body {
 #header-container {
     display: flex; /* align items*/
     align-items: center; /* center items */
+    margin: auto;
+}
+div #logo img {
+   float: left;
 }
 header {
     text-align: center; /* center items */
-}
-#main-header {
-    align-items: center;
-    width: 50%;
-    height: 50%;
-    margin: auto;
 }
 h1 {
     font-size: 60px;
     border-radius: 15px;
     background-color: #073F6F;
     color: white;
-    margin-left: 40px;
+    margin:auto;
     text-align: center;
     border: 6px solid white;
     text-transform: uppercase;
