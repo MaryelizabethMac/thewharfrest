@@ -82,7 +82,7 @@ nav {
     background-color: white;
     height:60px;
     width:750px;
-    margin:0px 405px 0px 405px;
+    margin:0px 400px 0px 400px;
 }
 nav ul {
     list-style-type: none; /* Remove list bullet points */
@@ -225,9 +225,30 @@ button {
 }
 /* Footer CSS */
 img.footer {
-    padding: 25px 640px 0px 640px;
+    padding: 25px 620px 0px 620px;
     transition: transform 0.3s; /* Apply smooth transition to the transform property */
 }
 img.footer:hover {
     transform: scale(1.2); /* Apply 120% zoom on hover */
 }
+header {
+    background-color: #D9F1FF;
+    padding: 20px;
+    text-align: center;
+    }
+    nav ul {
+    list-style-type: none;
+    padding: 0;
+    }
+    nav ul li {
+    display: inline;
+    margin-right: 20px;
+    }
+    main {
+    padding: 20px;
+    }
+    footer {
+    background-color: #D9F1FF;
+    padding: 10px;
+    text-align: center;
+    }
