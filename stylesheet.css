@@ -1,3 +1,7 @@
+main {
+    height:100%;
+    width:100%;
+}
 body {
     background-color: #D9F1FF; /* changes background color for all pages*/
     font-family:Georgia, 'Times New Roman', Times, serif; /* changes font for all pages*/
