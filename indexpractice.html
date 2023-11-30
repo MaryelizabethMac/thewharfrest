@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>The Wharf - Home</title> 
+    <meta charset="UTF-8">
+    <meta name="description" content="The Wharf Restaurant">
+    <meta name="keywords" content="ocean, wharf, restaurant, menu, plymouth, sandwich, Massachusetts, seafood, service, pizza, burger, drinks, clams, salads, food">
+    <meta name="author" content="Maryelizabeth Macdonald">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylesheet.css">
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-QP7D087KJV"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-QP7D087KJV');
+    </script>
+
+    <style>
+        /* Base styles for larger screens */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f2f2f2;
+        }
+
+        .container {
+            max-width: 1200px; /* Adjust the width to your preference */
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+        }
+
+        header .header-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 20px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        main {
+            display: flex;
+            justify-content: space-around;
+            padding: 20px;
+        }
+
+        .first-section, .second-section {
+            flex-basis: calc(50% - 40px);
+            padding: 20px;
+            text-align: center;
+        }
+
+        .first-section img, .second-section img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        footer {
+            text-align: center;
+        }
+
+        /* Media query for smaller screens (responsive design) */
+        @media (max-width: 768px) {
+            .container {
+                padding: 10px;
+            }
+
+            header .header-container {
+                flex-direction: column;
+            }
+
+            nav ul {
+                text-align: center;
+            }
+
+            nav ul li {
+                display: block;
+                margin: 10px 0;
+            }
+
+            main {
+                flex-direction: column;
+            }
+
+            .first-section, .second-section {
+                flex-basis: 100%;
+                margin-bottom: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="header-container">
+                <img src="images/logonew.png" alt="logo" width="225" height="200">
+                <h1>Home</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home Page</a></li>
+                    <li><a href="aboutus.html">About Us</a></li>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="reachout.html">Reach Out</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <div class="first-section">
+                <img src="images/images.jpg" alt="image1" width="250" height="175">
+                <h2> Hours of Operation: </h2><br>
+                <br><p>11:30 AM - 9:00 PM Monday-Thursday<br> 11:00 AM - 10:00 PM Friday-Sunday</p>
+            </div>
+            <div class="second-section">
+                <img src="images/download.jpg" alt="image2" width="250" height="175">
+                <h2>Locations:</h2><br>
+                <p>Plymouth, MA (02360)<br> Sandwich, MA (02537)</p>
+            </div>
+        </main>
+        <footer>
+            <img src="images/contactareafooter.png" alt="footer" width="250" height="175" class="footer">
+        </footer>
+    </div>
+</body>
+</html>
