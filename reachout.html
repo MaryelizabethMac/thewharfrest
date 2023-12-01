@@ -54,9 +54,8 @@
                         <label for="comment1">Comment:</label>
                         <textarea id="comment1" name="comment1" required></textarea>
                     </div>
-                    <button type="button" onclick="submitForm()">
-                        <p id="demo2">Submit</p>
-                    </button>
+                    <button type="submit" onclick="document.getElementById('demo2').innerHTML = 'Thanks for your submission!'" value ="Submit">
+                        <p id="demo2">Submit</p></button>
                 </form>
             </div>
             <script src="scripts.js"></script>            
