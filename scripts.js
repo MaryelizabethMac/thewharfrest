@@ -1,4 +1,31 @@
-
+document.addEventListener("DOMContentLoaded", function () {
+    const form = document.getElementById("contact-form");
+    const name1Input = document.getElementById("name1");
+    const emailInput = document.getElementById("email");
+    const comment1Input = document.getElementById("comment1");
+    form.addEventListener("submit", function (event) {
+        // Initialize an array to store error messages
+        const errors = [];
+        // Validation for username (minimum length of 6 characters)
+        if (name1Input.value.length < 2) {
+        errors.push("Username must be at least 2 characters long.");
+        }
+        // Validation for email (must be a valid email format)
+        const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+        if (!emailRegex.test(emailInput.value)) {
+        errors.push("Please enter a valid email address.");
+        }
+        // Validation for password (minimum length of 20 characters)
+        if (comment1Input.value.length < 10) {
+        errors.push("Comment must be at least 10 characters long.");
+        }
+        // If there are errors, prevent form submission and display them
+        if (errors.length > 0) {
+        event.preventDefault(); // Prevent form submission
+        alert(errors.join("\n")); // Display error messages in an alert
+        }
+    });
+});
 
 document.addEventListener("DOMContentLoaded", function () {
     const form = document.getElementById("review-form");
