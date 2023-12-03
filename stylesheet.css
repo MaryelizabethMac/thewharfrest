@@ -201,7 +201,7 @@ main {
 .container, .containertwo {
     text-align: center;
     font-size: 25px;
-    padding: 20px;
+    padding: 25px;
     text-decoration-line: underline;
     font-weight: bold;
     border: 6px dashed #073F6F;
