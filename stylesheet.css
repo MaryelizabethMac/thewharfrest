@@ -1,17 +1,17 @@
 body {
-    background-color: #D9F1FF; /* changes background color for all pages*/
-    font-family:Georgia, 'Times New Roman', Times, serif; /* changes font for all pages*/
-    color: #073F6F; /* changes color of text for all pages*/
+    background-color: #D9F1FF; /*changes background color for all pages*/
+    font-family:Georgia, 'Times New Roman', Times, serif; /*changes font for all pages*/
+    color: #073F6F; /*changes color of text for all pages*/
 }
 #header-container {
-    display: flex; /* align items*/
-    align-items: center; /* center items */
+    display: flex; /*align items*/
+    align-items: center; /*center items */
 }
 #header-container img {
     float:left
 }
 header {
-    text-align: center; /* center items */
+    text-align: center; /*center items */
     width: 100%;
     height: 100%;
     margin:auto;
@@ -31,7 +31,7 @@ h1 {
     border: 6px solid white;
     text-transform: uppercase;
     padding: 15px;
-    transition: transform 0.2s, background-color 0.2s, color 0.2s; /* Apply smooth transition to transform, background-color, and color properties */
+    transition: transform 0.2s, background-color 0.2s, color 0.2s; /*transform, background-color, and color properties*/
 }
 h1:hover {
     background-color: white;
@@ -40,17 +40,17 @@ h1:hover {
     font-style: oblique;
     border: 6px solid #073F6F;
     text-shadow: 4px 4px 4px #073F6F;
-    transform: scale(1.2); /* Apply 120% zoom on hover */
+    transform: scale(1.2); /*120% zoom on hover */
 }
 h2 {
-    font-size: 30px; /* adjusts font sizes of h1*/
+    font-size: 30px; /*adjusts font sizes of h1*/
     border-radius: 15px;
-    background-color: #073F6F; /* changes background color of the box to navy*/
-    color: white; /* changes font of h1 to white*/
-    text-align: center; /* center items */
-    border: 6px solid white; /* Creates borders around the text in white*/
-    text-transform: uppercase; /* Makes all the text uppercase*/
-    padding: 15px; /* Makes the border a little futher away from the text itself, englarges the border essentially*/
+    background-color: #073F6F; /*changes background color of the box to navy*/
+    color: white; /*changes font of h1 to white*/
+    text-align: center; /*center items */
+    border: 6px solid white; /*creates borders around the text in white*/
+    text-transform: uppercase; /*makes all the text uppercase*/
+    padding: 15px;
     width: 50%;
     height: 50%;
     margin: auto;
@@ -79,7 +79,7 @@ h4 {
     font-size: 50px;
     text-align: center;
     color:#073F6F;
-    transition: transform .4s; /* Animation */
+    transition: transform .4s; /*animation */
     margin: auto;
     padding:10px;
 }
@@ -90,7 +90,7 @@ h4:hover {
 }
 /*Navigation Bar CSS*/
 nav {
-    border: 6px solid #073F6F; /* Creates dashed border around the entire navigation menu in dark blue*/
+    border: 6px solid #073F6F; /*creates dashed border around the entire navigation menu in dark blue*/
     border-radius: 30px;
     background-color: white;
     height:50%;
@@ -98,42 +98,42 @@ nav {
     margin: auto;
 }
 nav ul {
-    list-style-type: none; /* Remove list bullet points */
+    list-style-type: none; /*remove list bullet points */
     padding: 0px;
 }
 nav ul li {
-    display: inline; /* Display menu items horizontally */
-    text-align: center; /* center items */
+    display: inline; /*display menu items horizontally */
+    text-align: center; /*center items */
 }
 nav a {
-    text-decoration: none; /* Remove underlines from links */
+    text-decoration: none; /*remove underlines from links */
     font-size: 22px;
     font-weight: bold;
     color: #073F6F;
     background-color: white;
-    padding: 10px; /* creates space around an element's content */
+    padding: 10px; /*creates space around an element's content */
     margin: 20px;
-    transition: transform .2s; /* Animation */
+    transition: transform .2s; /*animation */
     border-radius: 20px;
 }
 a:hover {
-    background-color: #D9F1FF; /* when hovering over the navigation the text background will appear light blue */
-    font-weight: bold; /* when hovering over the navigation the text will appear bolded */
-    font-style: oblique; /* when hovering over the navigation the text will appear in italics */
+    background-color: #D9F1FF; /*when hovering over the navigation the text background will appear light blue */
+    font-weight: bold; /*when hovering over the navigation the text will appear bolded */
+    font-style: oblique; /*when hovering over the navigation the text will appear in italics */
     transform: scale(1.5);
-    text-shadow: 4px 4px 4px #289adc;
+    text-shadow: 4px 4px 4px #289adc; /*creates a shadow */
     border-radius: 20px;
   }
 /*Home/Index CSS */
 main {
-    margin: 40px; /* Add margins around the content */
+    margin: 40px; /*add margins around the content */
 }
 .first-section, .second-section {
-    border: 6px dashed #073F6F; /* Creates dashed border around the text in dark blue*/
+    border: 6px dashed #073F6F; /*creates dashed border around the text in dark blue*/
     border-radius: 15px;
-    margin: 10px; /* create space around elements */
-    text-align: center; /* centers text */
-    font-size: 25px; /* changes font to 25 pixels */
+    margin: 10px; /*create space around elements */
+    text-align: center; /*centers text */
+    font-size: 25px; /*changes font to 25 pixels */
     padding-bottom: 60px;
 }
 .first-section:hover, .second-section:hover {
@@ -143,25 +143,25 @@ main {
     border: 6px dashed white;
 }
 #zoom, #zoom2 {
-    transition: transform .7s; /* Animation */
-    width: 400px; /* Adjust the width as needed */
+    transition: transform .7s; /*animation */
+    width: 400px; /*adjust the width as needed */
     height: 100px;
     margin: 0 auto;
-    display: flex; /* Use flexbox to align images horizontally */
-    justify-content: space-evenly; /* Add space between images */
+    display: flex; /*align images horizontally */
+    justify-content: space-evenly; /*add space between images */
     padding: 100px;
 }
 #zoom:hover, #zoom2:hover {
-    transform: scale(1.3); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+    transform: scale(1.3); /*130 zoom */
 }
 /* About Us CSS */
 .restauranthistory, .townhistories {
-    border: 6px dashed #073F6F; /* Creates dashed border around the text in dark blue*/
+    border: 6px dashed #073F6F; /*creates dashed border around the text in dark blue*/
     border-radius: 15px; /*curves edges of border*/
-    padding: 20px; /* creates space around an element's content */
-    margin: 15px; /* create space around elements */
-    text-align: center; /* centers text */
-    font-size: 25px; /* changes font to 25 pixels */
+    padding: 20px; /*creates space around an element's content */
+    margin: 15px; /*create space around elements */
+    text-align: center; /*centers text */
+    font-size: 25px; /*changes font to 25 pixels */
 }
 .restauranthistory:hover, .townhistories:hover {
     background-color:#073F6F;
@@ -170,23 +170,23 @@ main {
     border: 6px dashed white;
 }
 #zoom3, #zoom4 {
-    transition: transform .7s; /* Animation */
+    transition: transform .7s; /*animation */
     width: 400px;
     height: 100px;
     margin: 0 auto;
-    display: flex; /* align itemsy */
-    justify-content: space-between; /* Add space between images */
+    display: flex; /*align items */
+    justify-content: space-between; /*add space between images */
 }
 #zoom3:hover, #zoom4:hover {
-    transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+    transform: scale(1.5); /*150% zoom */
 }
 /* Menu CSS */
 .lunchmenu, .dinnermenu {
-    text-align: center; /* centers the text */
-    font-size: 20px; /* changes the font of the class to 20 pixels */
+    text-align: center; /*centers the text */
+    font-size: 20px; /*changes the font of the class to 20 pixels */
     border: 6px dashed #073F6F;
     border-radius: 15px;
-    margin: 15px; /* create space around elements */
+    margin: 15px; /*create space */
     padding: 20px;
 }
 .lunchmenu:hover, .dinnermenu:hover {
@@ -207,7 +207,7 @@ main {
     border: 6px dashed #073F6F;
     margin: 15px;
     border-radius: 15px;
-    transition: transform 0.8s; /* Apply smooth transition to the transform property */
+    transition: transform 0.8s; /*apply transition */
 }
 .container:hover, .containertwo:hover {
     background-color: #073F6F;
@@ -215,7 +215,7 @@ main {
     font-weight: bold;
     border: 6px dashed white;
     border-radius: 15px;
-    transform: scale(1.1); /* Apply 120% zoom on hover */
+    transform: scale(1.1); /*110% zoom */
 }
 .form-group {
     margin-bottom: 10px;
@@ -247,8 +247,8 @@ footer {
 }
 img.footer {
     padding: 30px;
-    transition: transform 0.3s; /* Apply smooth transition to the transform property */
+    transition: transform 0.3s; /*apply transition */
 }
 img.footer:hover {
-    transform: scale(1.2); /* Apply 120% zoom on hover */
+    transform: scale(1.2); /*120% zoom */
 }
